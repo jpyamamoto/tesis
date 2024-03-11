@@ -43,9 +43,10 @@ dateread:
 > **ISBN**: {{ISBN}} {%- endif %}    
 
 > [!LINK] 
-> {%- if url %}**URL**: {{url}}{%- endif -%}
+> {%- if url %}**URL**: {{url}}  
+> {%- endif -%} **Zotero URL**: {{pdfZoteroLink}}  
 > {%- for attachment in attachments | filterby("path", "endswith", ".pdf") %}
->  [{{attachment.title}}](file://{{attachment.path | replace(" ", "%20")}})  {%- endfor -%}.
+>  Attachment: [{{attachment.title}}](file://{{attachment.path | replace(" ", "%20")}})  {%- endfor -%}.
 
 
 

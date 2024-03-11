@@ -36,8 +36,10 @@ dateread:
 > **ISBN**: 978-90-277-1142-7 978-94-009-9065-4    
 
 > [!LINK] 
->**URL**: http://link.springer.com/10.1007/978-94-009-9065-4>
->  [(Studies in Linguistics and Philosophy 11) David R. Dowty, Robert E. Wall, Stanley Peters (auth.) - Introduction to Montague Semantics-Springer Netherlands (1981)_103811.pdf](file:///home/jpyamamoto/Zotero/storage/X9EC93IP/(Studies%20in%20Linguistics%20and%20Philosophy%2011)%20David%20R.%20Dowty,%20Robert%20E.%20Wall,%20Stanley%20Peters%20(auth.)%20-%20Introduction%20to%20Montague%20Semantics-Springer%20Netherlands%20(1981)_103811.pdf).
+>**URL**: http://link.springer.com/10.1007/978-94-009-9065-4  
+>**Zotero URL**: [(Studies in Linguistics and Philosophy 11) David R. Dowty, Robert E. Wall, Stanley Peters (auth.) - Introduction to Montague Semantics-Springer Netherlands (1981)_103811.pdf](zotero://select/library/items/X9EC93IP)  
+>
+>  Attachment: [(Studies in Linguistics and Philosophy 11) David R. Dowty, Robert E. Wall, Stanley Peters (auth.) - Introduction to Montague Semantics-Springer Netherlands (1981)_103811.pdf](file:///home/jpyamamoto/Zotero/storage/X9EC93IP/(Studies%20in%20Linguistics%20and%20Philosophy%2011)%20David%20R.%20Dowty,%20Robert%20E.%20Wall,%20Stanley%20Peters%20(auth.)%20-%20Introduction%20to%20Montague%20Semantics-Springer%20Netherlands%20(1981)_103811.pdf).
 
 
 
@@ -119,4 +121,4 @@ dateread:
 
 %% end annotations %%
 
-%% Import Date: 2024-03-11T17:04:06.743-06:00 %%
+%% Import Date: 2024-03-11T17:50:21.608-06:00 %%

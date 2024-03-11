@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "ec44ab68ad6c9e76",
+        "id": "6f141b28e6aff77d",
         "type": "tabs",
         "children": [
           {
-            "id": "2765757dbf2acb2d",
+            "id": "527636d7843cf7e2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "index.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "index.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,26 +138,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2765757dbf2acb2d",
+  "active": "527636d7843cf7e2",
   "lastOpenFiles": [
-    "sources/dowtyIntroductionMontagueSemantics1980.md",
+    "README.md",
     "sources/Kao_2004.md",
     "sources/Janssen_2021.md",
     "sources/Dowty_1980.md",
+    "templates/Better Template.md",
+    "templates/Basic import with properties.md",
+    "templates/Formatted Annotations.md",
+    "index.md",
+    "sources/dowtyIntroductionMontagueSemantics1980.md",
     "sources/kaoMontagueGrammar2004.md",
     "sources/janssenMontagueSemantics2021.md",
-    "index.md",
-    "templates/Better Template.md",
-    "README.md",
     "sources/janssenMontagueSemanticsStanford2021.md",
     "templates/Separate Highlights with headings.md",
     "sources/kaoMontagueGrammarUniversity2004.md",
-    "templates/Basic import with properties.md",
     "sources/dowtyIntroductionMontagueSemantics.md",
     "dowtyIntroductionMontagueSemantics.md",
     "sources",
     "templates/Persisted Annotations.md",
-    "templates/Formatted Annotations.md",
     "templates",
     "kaoMontagueGrammarUniversity.md",
     "janssenMontagueSemanticsStanford.md",

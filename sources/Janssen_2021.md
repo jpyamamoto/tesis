@@ -29,7 +29,9 @@ dateread:
 > **itemType**: webpage    
 
 > [!LINK] 
->**URL**: https://plato.stanford.edu/archives/sum2021/entries/montague-semantics/>.
+>**URL**: https://plato.stanford.edu/archives/sum2021/entries/montague-semantics/  
+>**Zotero URL**:   
+>.
 
 
 
@@ -45,4 +47,4 @@ dateread:
 
 %% end annotations %%
 
-%% Import Date: 2024-03-11T17:04:06.766-06:00 %%
+%% Import Date: 2024-03-11T17:50:21.625-06:00 %%
