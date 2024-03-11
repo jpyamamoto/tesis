@@ -1,0 +1,21 @@
+{
+  "database": "Zotero",
+  "noteImportFolder": "sources",
+  "pdfExportImageDPI": 120,
+  "pdfExportImageFormat": "png",
+  "pdfExportImageQuality": 90,
+  "citeFormats": [],
+  "exportFormats": [
+    {
+      "name": "Import Thesis",
+      "outputPathTemplate": "sources/{{citekey}}.md",
+      "imageOutputPathTemplate": "sources/images/{{citekey}}/",
+      "imageBaseNameTemplate": "image",
+      "templatePath": "templates/Better Template.md",
+      "cslStyle": "chicago-author-date"
+    }
+  ],
+  "citeSuggestTemplate": "[[{{citekey}}]]",
+  "openNoteAfterImport": false,
+  "whichNotesToOpenAfterImport": "first-imported-note"
+}

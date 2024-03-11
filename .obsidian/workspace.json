@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "774cee9104d676be",
+        "id": "ec44ab68ad6c9e76",
         "type": "tabs",
         "children": [
           {
-            "id": "812127b92a58fb58",
+            "id": "2765757dbf2acb2d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "index.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "index.md"
               }
             }
           }
@@ -142,10 +146,30 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c009d3debb5de2ef",
+  "active": "2765757dbf2acb2d",
   "lastOpenFiles": [
-    "create a link.md",
+    "sources/dowtyIntroductionMontagueSemantics1980.md",
+    "sources/Kao_2004.md",
+    "sources/Janssen_2021.md",
+    "sources/Dowty_1980.md",
+    "sources/kaoMontagueGrammar2004.md",
+    "sources/janssenMontagueSemantics2021.md",
+    "index.md",
+    "templates/Better Template.md",
     "README.md",
+    "sources/janssenMontagueSemanticsStanford2021.md",
+    "templates/Separate Highlights with headings.md",
+    "sources/kaoMontagueGrammarUniversity2004.md",
+    "templates/Basic import with properties.md",
+    "sources/dowtyIntroductionMontagueSemantics.md",
+    "dowtyIntroductionMontagueSemantics.md",
+    "sources",
+    "templates/Persisted Annotations.md",
+    "templates/Formatted Annotations.md",
+    "templates",
+    "kaoMontagueGrammarUniversity.md",
+    "janssenMontagueSemanticsStanford.md",
+    "create a link.md",
     "Welcome.md"
   ]
 }
