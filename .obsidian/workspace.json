@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6f141b28e6aff77d",
+        "id": "7ddc8b81e7b67e67",
         "type": "tabs",
         "children": [
           {
-            "id": "527636d7843cf7e2",
+            "id": "6fa3a59d58b96a7f",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -138,16 +138,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "527636d7843cf7e2",
+  "active": "c009d3debb5de2ef",
   "lastOpenFiles": [
+    "Untitled.canvas",
+    "sources/Bernardy_2018.md",
+    "templates/Persisted Annotations.md",
+    "{{a.desktopURI}}.md",
+    "index.md",
+    "sources/Colyer_2018.md",
+    "sources/GHCTeam_2023.md",
     "README.md",
+    "sources/Ter-Matevosian_2023.md",
+    "sources/Wadler_1990.md",
+    "sources/Spiwack_2020.md",
+    "sources/Otwani_2021.md",
+    "sources/Dowty_1980.md",
     "sources/Kao_2004.md",
     "sources/Janssen_2021.md",
-    "sources/Dowty_1980.md",
     "templates/Better Template.md",
     "templates/Basic import with properties.md",
     "templates/Formatted Annotations.md",
-    "index.md",
     "sources/dowtyIntroductionMontagueSemantics1980.md",
     "sources/kaoMontagueGrammar2004.md",
     "sources/janssenMontagueSemantics2021.md",
@@ -157,11 +167,6 @@
     "sources/dowtyIntroductionMontagueSemantics.md",
     "dowtyIntroductionMontagueSemantics.md",
     "sources",
-    "templates/Persisted Annotations.md",
-    "templates",
-    "kaoMontagueGrammarUniversity.md",
-    "janssenMontagueSemanticsStanford.md",
-    "create a link.md",
-    "Welcome.md"
+    "templates"
   ]
 }
