@@ -1,7 +1,11 @@
 ---
 category: reading
 title: "Linear Haskell: practical linearity in a higher-order polymorphic language"
-tags: Computer Science - Programming Languages
+tags:
+  - Computer
+  - Science
+  - Programming
+  - Languages
 citekey: Bernardy_2018
 year: 2018
 status: unread
