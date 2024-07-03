@@ -1,5 +1,7 @@
 [
   "dataview",
   "obsidian-git",
-  "obsidian-zotero-desktop-connector"
+  "obsidian-zotero-desktop-connector",
+  "unicode-search",
+  "obsidian-tikzjax"
 ]

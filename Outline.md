@@ -3,16 +3,22 @@ El proyecto de tesis se planea con las siguientes secciones:
 - [ ] Preliminares
 	- [ ] Introducción a la Lógica Lineal
 	- [ ] Introducción a la programación puramente funcional en Haskell
-	- [ ] Principio de Fusión
-- [ ] Tipos lineales
-	- [ ] Una extensión al cálculo $\lambda$ con tipos lineales
+	- [x] [[Fusión por Atajo]]
+	- [x] [[Destination Passing Style]]
+- [x] [[Cálculo λ𐞥→]]
+	- [x] [[Sintaxis]]
+	- [ ] Semántica
+	- [ ] Propiedades
 - [ ] Haskell
 	- [ ] Extensión: Linear Types
+		- [ ] Linear Arrow
+		- [ ] Unrestricted
+		- [ ] Consumable
 	- [ ] Linealidad sobre funciones
 	- [ ] Polimorfismo de linealidad
 	- [ ] Garantías para la compilación de programas eficientes con tipos lineales
-- [ ] Caso de uso: Arreglos
-	- [ ] Mutable Arrays
-	- [ ] Destination Arrays
-	- [ ] Polarized Arrays (Push-Pull)
+- [x] Caso de uso: [[Arreglos]]
+	- [x] [[Arreglos Mutables]]
+	- [x] [[Destination Arrays]]
+	- [x] [[Polarized Arrays]]
 - [ ] Conclusiones y trabajo futuro
