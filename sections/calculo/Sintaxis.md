@@ -11,8 +11,14 @@ Algo a resaltar es que la sintaxis del sistema es suficientemente flexible como 
 - Tipos relevantes: cada valor debe ser utilizado al menos una vez.
 - Tipos ordenados: Cada valor debe ser utilizado exactamente una vez en su orden de creación.
 
+De hecho, en [[Bernardy_2018]] se analiza la extensión a tipos afines agregando una multiplicidad $0$. También propone el uso de la multiplicidad $\beta$ con $1 < \beta < \omega$ que respeta las reglas estructurales de Debilitamiento y Contracción, pero con mayores restricciones que la multiplicidad $\omega$. Esto podría ser útil para definir una función `borrow :: (T ->ᵦ Unrestricted a) ->ᵦ Unrestricted a` que limita el alcance de la vida de un término.
+
+No se ha seguido tal dirección en el desarrollo de Haskell, debido a que el uso de la multiplicidad $\beta$ presenta dificultades para continuar implementando la optimización de llamada de cola. Sin embargo, otros lenguajes como Rust lo implementan como parte fundamental de su sistema de tipificado.
+
 Los tipos son los usuales, a excepción de que el tipo función ahora tiene una multiplicidad en la flecha. Esto servirá para indicar cuántas veces puede utilizarse el argumento.
 
 Las declaraciones de datos se realizan al estilo de los tipos de datos algebráicos generalizados, en donde se definen los constructores como funciones. El hecho de que sean funciones, permite indicar la multiplicidad sobre la flecha función.
 
 Los términos que tenemos son los usuales del cálculo $\lambda_{\rightarrow}$ con constructores y expresiones **let** y **case**. Nótese que las abstracciones $\lambda$ indican la multiplicidad del argumento. De la misma manera, tenemos abstracción y aplicación de multiplicidad. Las expresiones **case** y **let** indican la multiplicidad de los términos que ligan.
+
+Para facilitar la lectura, diremos que $A \rightarrow B \equiv A \rightarrow_{\omega} B$ y $A \multimap B \equiv A \rightarrow_1 B$.

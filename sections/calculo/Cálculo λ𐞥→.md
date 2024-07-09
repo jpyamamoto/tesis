@@ -6,6 +6,8 @@ Aquí no estamos considerando la definición de la implicación $\rightarrow$ pr
 
 Más adelante veremos que a partir de estas implicaciones, junto con los tipos de datos algebráicos generalizados, es posible definir también el exponencial $!$ para poder escapar las restricciones lineales de una forma segura.
 
-Además, este sistema cuenta con polimorfismo de linealidad. Es decir, tenemos un mecanismo para definir funciones que se comportan correctamente tanto en contextos lineales como no-lineales.
+Además, este sistema cuenta con polimorfismo de multiplicidad. Es decir, tenemos un mecanismo para definir funciones que se comportan correctamente tanto en contextos lineales como no-lineales.
+
+Este lenguaje no cuenta con polimorfismo sobre tipos, pues se considera que tal extensión es ortogonal, y complicaría el lenguaje innecesariamente para el objetivo de su estudio.
 
 El sistema $\lambda_{\rightarrow}^{q}$ se presenta en [[Bernardy_2018]], y la documentación de los aspectos técnicos de la implementación en Haskell como la extensión LinearHaskell se presentan en la documentación [[GHCTeam_2023]]. Además, hay variedad de recursos que se listan en las referencias que profundizan en la implementación y uso de tipos lineales en Haskell.

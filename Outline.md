@@ -7,8 +7,8 @@ El proyecto de tesis se planea con las siguientes secciones:
 	- [x] [[Destination Passing Style]]
 - [x] [[Cálculo λ𐞥→]]
 	- [x] [[Sintaxis]]
-	- [ ] Semántica
-	- [ ] Propiedades
+	- [x] [[Semántica]]
+	- [x] [[Propiedades]]
 - [ ] Haskell
 	- [ ] Extensión: Linear Types
 		- [ ] Linear Arrow

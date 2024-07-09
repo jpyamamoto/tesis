@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "4b94964167422bc7",
+        "id": "a3e6f70efed8b685",
         "type": "tabs",
         "children": [
           {
-            "id": "4fc36ccdee277be3",
+            "id": "dd0f7fbc6b94ea2f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Outline.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Outline.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Outline.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Outline.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,13 +138,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c009d3debb5de2ef",
+  "active": "dd0f7fbc6b94ea2f",
   "lastOpenFiles": [
+    "Outline.md",
+    "sources/Harper_2016.md",
+    "sections/calculo/Propiedades.md",
     "sections/calculo/Sintaxis.md",
+    "sections/calculo/Semántica.md",
+    "sections/calculo/Cálculo λ𐞥→.md",
+    "assets/typing-rules.png",
+    "assets/mutiplicity-equivalence.png",
+    "assets/context-scaling.png",
+    "assets/context-addition.png",
     "sources/Walker_2004.md",
     "sources/Pierce_2004.md",
-    "sections/calculo/Cálculo λ𐞥→.md",
-    "Outline.md",
     "sections/calculo",
     "sections/arreglos",
     "sections/preliminares",
@@ -178,9 +177,6 @@
     "sources/Pelaez_2018.md",
     "sections",
     "README.md",
-    "sources/Spiwack_2022.md",
-    "sources/Spiwack_2023a.md",
-    "sources/Spiwack_2023.md",
     "Untitled.canvas",
     "sources",
     "templates"
