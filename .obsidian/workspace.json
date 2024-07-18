@@ -4,15 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "a3e6f70efed8b685",
+        "id": "3ca22333b70b9024",
         "type": "tabs",
         "children": [
           {
-            "id": "dd0f7fbc6b94ea2f",
+            "id": "90e39618c2edf3ab",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "diff-view",
+              "state": {
+                "file": ".obsidian/app.json",
+                "staged": true
+              }
             }
           }
         ]
@@ -120,13 +123,21 @@
               "type": "outline",
               "state": {}
             }
+          },
+          {
+            "id": "64645fe0fabb9535",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -138,14 +149,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dd0f7fbc6b94ea2f",
+  "active": "90e39618c2edf3ab",
   "lastOpenFiles": [
+    "sections/haskell/Linealidad sobre Funciones.md",
     "Outline.md",
-    "sources/Harper_2016.md",
-    "sections/calculo/Propiedades.md",
-    "sections/calculo/Sintaxis.md",
+    "sections/haskell/Unrestricted.md",
+    "sections/haskell/Polimorfismo de Multiplicidad.md",
+    "sections/haskell/Linear Types.md",
     "sections/calculo/Semántica.md",
+    "sections/calculo/Sintaxis.md",
+    "sources/Spiwack_2018.md",
     "sections/calculo/Cálculo λ𐞥→.md",
+    "sections/calculo/Propiedades.md",
+    "sections/Untitled.canvas",
+    "sections/haskell",
+    "sources/Harper_2016.md",
     "assets/typing-rules.png",
     "assets/mutiplicity-equivalence.png",
     "assets/context-scaling.png",
@@ -171,12 +189,7 @@
     "sources/Spiwack_2020.md",
     "sections/arreglos/Arreglos.md",
     "sections/preliminares/Fusión por Atajo.md",
-    "sources/Bernardy_2018.md",
-    "sources/Mainland_2013.md",
-    "sources/Black_2016.md",
-    "sources/Pelaez_2018.md",
     "sections",
-    "README.md",
     "Untitled.canvas",
     "sources",
     "templates"

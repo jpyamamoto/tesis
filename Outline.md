@@ -5,17 +5,15 @@ El proyecto de tesis se planea con las siguientes secciones:
 	- [ ] Introducción a la programación puramente funcional en Haskell
 	- [x] [[Fusión por Atajo]]
 	- [x] [[Destination Passing Style]]
+	- [ ] GADTs
 - [x] [[Cálculo λ𐞥→]]
 	- [x] [[Sintaxis]]
 	- [x] [[Semántica]]
 	- [x] [[Propiedades]]
-- [ ] Haskell
-	- [ ] Extensión: Linear Types
-		- [ ] Linear Arrow
-		- [ ] Unrestricted
-		- [ ] Consumable
-	- [ ] Linealidad sobre funciones
-	- [ ] Polimorfismo de linealidad
+- [x] Haskell: [[Linear Types]]
+	- [x] [[Linealidad sobre Funciones]]
+	- [x] [[Polimorfismo de Multiplicidad]]
+	- [x] [[Unrestricted]]
 	- [ ] Garantías para la compilación de programas eficientes con tipos lineales
 - [x] Caso de uso: [[Arreglos]]
 	- [x] [[Arreglos Mutables]]

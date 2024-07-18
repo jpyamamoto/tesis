@@ -4,7 +4,7 @@ Declaraciones de datos: $\texttt{data } D p_1 ... p_n \texttt{ where } (c_k  : A
 Términos: $e,s,t,t ::= x | \lambda_{\pi} (x:A).t | t s | \lambda p . t | t \pi | c t_1 ... t_n | \texttt{case}_{\pi} t \texttt{ of } \{c_k x_1 ... {x_n}_k \rightarrow u_k \}_{k=1}^m | \texttt{let}_{\pi} x_1 : A_1 = t_1 ... x_n : A_n = t_n \texttt{ in } u$
 Vamos a analizar cada parte de la sintaxis.
 
-En la multiplicidades, por ahora únicamente contamos con 2 multiplicidades concretas: $1$ y $\omega$, donde la primera representa la multiplicidad lineal (un sólo uso) y la segunda es la multiplicidad usual (sin restricciones en el uso). La multiplicidad $p$ es una variable, para permitir el polimorfismo en linealidad (más adelante profundizaré en ello). Las otras dos multiplicidades son operaciones suma y producto, que serán útiles en la composición de multiplicidades.
+En la multiplicidades, por ahora únicamente contamos con 2 multiplicidades concretas: $1$ y $\omega$, donde la primera representa la multiplicidad lineal (un sólo uso) y la segunda es la multiplicidad usual (sin restricciones en el uso). La multiplicidad $p$ es una variable, para permitir el polimorfismo en multiplicidad (más adelante profundizaré en ello). Las otras dos multiplicidades son operaciones suma y producto, que serán útiles en la composición de multiplicidades.
 
 Algo a resaltar es que la sintaxis del sistema es suficientemente flexible como para permitir otros tipos de multiplicidades (con sus debidos ajustes en la semántica) que generen sistemas de tipos subestructurales distintos ([[Walker_2004]]), como por ejemplo:
 - Tipos afines: cada valor debe ser utilizado a lo más una vez.

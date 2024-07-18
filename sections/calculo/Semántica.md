@@ -55,13 +55,3 @@ Muy al estilo del polimorfismo de tipificado en el sistema F, el polimorfismo de
 
 >[!info]
 >Escribir en latex definición recursiva sobre los términos del lenguaje, para sustituir multiplicidades.
-
-Las condiciones para consumir linealmente términos dadas anteriormente por las reglas de la semántica estática, se pueden entender intuitivamente como a continuación (esta descripción resulta de utilidad al programar en Haskell):
-
-Definición. Consumir exactamente una vez (o linealmente).
-1. Para consumir un término de un tipo base atómico una vez, hay que evaluarlo. Esto incluye tipos como Int, Char, Float.
-2. Para consumir una función linealmente, aplica la función a un argumento, y consume su resultado exactamente una vez.
-3. Para consumir un par (tupla de dos entradas), realiza la coincidencia de patrones y consume cada entrada exactamente una vez.
-4. En general, para consumir un valor de un dato algebráico linealmente, realiza la coincidencia de patrones y consume cada entrada lineal exactamente una vez.
-
-Nótese que la regla 3 es una instancia particular de la regla 4.
