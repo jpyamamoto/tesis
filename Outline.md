@@ -1,7 +1,7 @@
 El proyecto de tesis se planea con las siguientes secciones:
 
 - [ ] Preliminares
-	- [ ] Introducción a la Lógica Lineal
+	- [ ] [[Lógica Lineal]]
 	- [ ] Introducción a la programación puramente funcional en Haskell
 	- [x] [[Fusión por Atajo]]
 	- [x] [[Destination Passing Style]]

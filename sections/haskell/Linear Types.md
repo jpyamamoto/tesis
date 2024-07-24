@@ -1,5 +1,7 @@
 `LinearTypes` es el nombre de la extensión del compilador principal de Haskell: GHC; para el uso de tipos lineales.
 
+La propuesta para el desarrollo de esta extensión, junto con varios detalles importantes para la implementación se encuentran en [[Spiwack_2018]].
+
 En su primera versión, se identificó que la implementación afectó únicamente a 1152 líneas, de un total de más de 100 mil líneas que constituyen al compilador. Esto es evidencia de la buena interacción que representa el uso de tipos lineales en conjunto con Haskell sin extensiones.
 
 La extensión introduce el siguiente tipo:
