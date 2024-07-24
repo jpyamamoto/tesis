@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "84a1fe4774ae4d60",
+        "id": "800eb3ebefe5214a",
         "type": "tabs",
         "children": [
           {
-            "id": "89ce4c6e4d41443c",
+            "id": "aefb46fe7902213a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "README.md"
+              }
             }
           },
           {
@@ -146,34 +154,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "89ce4c6e4d41443c",
+  "active": "64645fe0fabb9535",
   "lastOpenFiles": [
-    "sections/preliminares/Lógica Lineal.md",
-    "sources/Buss_2000.md",
-    "sources/Girard_1987.md",
+    "sources/Ter-Matevosian_2023.md",
     "sources/Harper_2016.md",
     "sources/Otwani_2021.md",
     "README.md",
-    "sources/Ter-Matevosian_2023.md",
+    "sections/Trabajo Futuro.md",
+    "sources/Walker_2004.md",
+    "sections/calculo/Sintaxis.md",
+    "sources/Pierce_2005.md",
+    "sources/Mesquita_2024.md",
+    "sources/Bernardy_2016.md",
+    "sources/Spiwack_2023.md",
+    "sources/Spiwack_2023a.md",
+    "sources/Pelaez_2018.md",
+    "sources/Girard_1995.md",
+    "sources/EnriquezMendoza_2020.md",
+    "sources/Claessen_2012.md",
+    "sections/preliminares/Lógica Lineal.md",
+    "sources/Buss_2000.md",
+    "sources/Girard_1987.md",
     "sections/haskell/Linear Types.md",
     "sources/Spiwack_2018.md",
     "sources/Wadler_1993.md",
     "sources/Troelstra_2000.md",
     "sources/Pfenning_2002.md",
     "sources/Bernardy_2016a.md",
-    "sources/Bernardy_2016.md",
     "Outline.md",
-    "sections/Trabajo Futuro.md",
-    "sources/Mesquita_2024.md",
-    "sources/Pierce_2005.md",
-    "sources/Kazak_2020.md",
-    "sources/Colyer_2018.md",
-    "sections/calculo/Semántica.md",
-    "sources/Walker_2004.md",
-    "sources/Claessen_2012.md",
-    "sources/Spiwack_2023a.md",
-    "sources/Spiwack_2020.md",
-    "sources/Spiwack_2022.md",
     "sections/Untitled.canvas",
     "sections/haskell",
     "assets/typing-rules.png",

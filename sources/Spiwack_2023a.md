@@ -1,6 +1,6 @@
 ---
 category: reading
-title: Linear Constraints: the problem with scopes
+title: "Linear Constraints: the problem with scopes"
 tags: 
 citekey: Spiwack_2023a
 year: 2023

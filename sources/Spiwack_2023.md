@@ -1,6 +1,6 @@
 ---
 category: reading
-title: Linear Constraints: the problem with O(1) freeze
+title: "Linear Constraints: the problem with O(1) freeze"
 tags: 
 citekey: Spiwack_2023
 year: 2023

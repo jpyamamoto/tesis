@@ -1,6 +1,6 @@
 ---
 category: reading
-title: Estructuras de Datos con Java moderno: Algoritmos + Objetos = Programas
+title: "Estructuras de Datos con Java moderno: Algoritmos + Objetos = Programas"
 tags: 
 citekey: Pelaez_2018
 year: 2018

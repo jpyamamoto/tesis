@@ -1,17 +1,17 @@
 ---
 category: reading
-title: 1 Substructural Type Systems
+title: Substructural Type Systems
 tags: 
 citekey: Walker_2004
 year: 2004
 status: unread
-itemType: journalArticle
+itemType: bookSection
 url: 
 dateread:
 ---
 
 > [!Cite]
-> Walker, David. 2004. “1 Substructural Type Systems.” _Advanced Topics in Types and Programming Languages_, January.
+> Walker, David. 2004. “Substructural Type Systems.” In _Advanced Topics in Types and Programming Languages_.
 
 >[!Synth]
 >**Contribution**: 
@@ -22,11 +22,11 @@ dateread:
 >[!Data]
 > **FirstAuthor**:: Walker, David  
 ~    
-> **Title**: 1 Substructural Type Systems  
+> **Title**: Substructural Type Systems  
 > **Year**: 2004   
 > **Citekey**: Walker_2004  
-> **itemType**: journalArticle  
-> **Journal**: *Advanced Topics in Types and Programming Languages*    
+> **itemType**: bookSection  
+> **Book**:     
 
 > [!LINK] 
 >**Zotero URL**: [Walker - 1 Substructural Type Systems.pdf](zotero://select/library/items/PS72AA7B)  
@@ -47,4 +47,4 @@ dateread:
 
 %% end annotations %%
 
-%% Import Date: 2024-07-03T11:39:39.904-06:00 %%
+%% Import Date: 2024-07-24T13:40:03.019-06:00 %%

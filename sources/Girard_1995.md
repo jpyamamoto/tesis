@@ -1,6 +1,6 @@
 ---
 category: reading
-title: Linear Logic: its syntax and semantics
+title: "Linear Logic: its syntax and semantics"
 tags: 
 citekey: Girard_1995
 year: 1995
