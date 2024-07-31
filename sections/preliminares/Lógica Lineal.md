@@ -5,6 +5,17 @@ Posteriormente múltiples autores continuaron el estudio de este sistema y ha si
 A continuación reviso las partes más esenciales de la lógica lineal que serán de utilidad para entender la motivación detrás de los tipos lineales, y algunas decisiones en su implementación. Esto será con base en la presentación de Wadler en [[Wadler_1993]], que presenta la Lógica Lineal en una versión con notación de secuentes y supuestos lineales e intuicionistas.
 
 Para conocer la presentación usual de la lógica lineal desde el punto de vista de Teoría de la Prueba, se recomienda revisar [[Troelstra_2000]]. Para profundizar en algunos temas relacionados a la aplicación de la Lógica Lineal en Lenguajes de Programación no cubiertos en este trabajo, se recomienda revisar [[Pfenning_2002]] que toca temas como Programación Lógica y Tipos Lineales en el contexto de Tipos Dependientes.
+
+## Motivación
+Una de las motivaciones para la lógica lineal es tener un uso de los recursos en las demostraciones mucho más explícito.
+
+En la lógica intuicionista, tenemos 2 reglas que nos impiden manejar finamente el uso de las fórmulas: debilitamiento y contracción.
+
+$$ \dfrac{\Gamma \vdash B}{\Gamma, A \vdash B }\;\;\dfrac{\Gamma, A, A \vdash B}{\Gamma, A \vdash B} $$
+Si simplemente eliminamos tales reglas, terminamos con una lógica demasiado simple que no permite demostrar muchos teoremas interesantes.
+
+Una alternativa, y lo que busca la lógica lineal, es controlar el uso arbitrario de estas reglas. De esta forma, si se desea duplicar un recurso o deshacernos de una fórmula, será necesario hacerlo de forma explícita. De esta forma mantenemos el poder de la lógica intuicionista, pero teniendo un registro detallado y explícito sobre el uso de los recursos.
+
 ## Sintaxis
 La gramática para el lenguaje de las fórmulas de la Lógica lineal es la siguiente:
 $$ A,B,C := X | A \multimap B| A \otimes B | A \& B | A \oplus B | ! A $$
@@ -44,6 +55,31 @@ Regresando a la descripción del sistema, nuestro único operador unitario es $!
 
 Podemos notar que no tenemos un operador de implicación $\rightarrow$ como usualmente, pero contamos con el operador $\multimap$. Esta es la implicación lineal: $A\multimap B$ quiere decir que al consumir el recurso $A$, obtenemos el recurso $B$.
 
-Notemos que a diferencia de la lógica intuicionista, $A$ y $A \rightarrow B$ no nos permite concluir $A \land B$, sino únicamente $B$ (pues consumimos $A$ y deja de estar disponible).
+Notemos que a diferencia de la lógica intuicionista, $A$ y $A \multimap B$ no nos permite concluir $A \land B$, sino únicamente $B$ (pues consumimos $A$ y deja de estar disponible).
 
-Entendiendo lo anterior, resulta evidente que pmás en profundidadara obtener el comportamiento intuicionista, bastaría tener $A$ no sujeta a la restricción de linealidad. Es decir, $$ A \rightarrow B \equiv (!A) \multimap B $$
+Entendiendo lo anterior, resulta evidente que para obtener el comportamiento intuicionista, bastaría tener $A$ no sujeta a la restricción de linealidad. Es decir, $$ A \rightarrow B \equiv (!A) \multimap B $$
+## Juicios
+Habiendo entendido la interpretación de las fórmulas, veamos las reglas de juicios.
+
+![Linear Logic Judgements](assets/linear-judgements.png)
+
+Viendo la figura anterior es posible notar que las reglas de introducción de $\otimes$ y $\&$ son similares a la introducción de la conjunción intuicionista, mientras que las reglas de introducción para $\oplus$ se asemejan a la introducción de la disyunción.
+
+Por otro lado, las reglas de eliminación de $\&$ y $\oplus$ son análogas a las eliminaciones de conjunciones y disyunciones intuicionista respectivamente, con la única limitante de que las premisas deben usarse linealmente.
+
+Las reglas de $\multimap$ son similares a la implicación intuicionista, con la diferencia del contexto lineal.
+
+La regla de eliminación del $\otimes$ resulta interesante pues únicamente se puede concluir algo si ambas partes del operador se utilizan linealmente.
+
+Sobre las reglas del operador $!$, podemos ver que funciona como una manera de representar la no-linealidad del lado derecho del secuente. De ahí que únicamente se pueda introducir cuando todo el contexto es no-lineal.
+
+Respecto a las reglas estructurales, vemos que la regla de intercambio permanece igual. No obstante, la contracción y el debilitamiento deben realizarse sobre fórmulas no-lineales. Esto nos obliga a hacer explícita la no-linealidad de las fórmulas necesarias para demostrar un teorema.
+
+## $\langle !A\rangle$ y $[A]$
+Notemos que mediante las reglas del sistema, es posible generar la fórmula $\langle !A \rangle$. Parece extraño que tengamos una fórmula $!A$ que debería ser en esencia no-lineal, como un supuesto lineal.
+
+Esto es únicamente una consecuencia de categorizar los supuestos, y no representa ninguna contradicción. De hecho, podemos ver que $\Gamma, \langle !A\rangle \vdash B$ es demostrable si y sólo sí $\Gamma, [A] \vdash B$ es demostrable.
+
+![Forward Proof](assets/bang-intuitionistic.png)
+
+![Proof Backwards](assets/intuitionistic-bang.png)

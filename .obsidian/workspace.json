@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "800eb3ebefe5214a",
+        "id": "67ff3bbdb657b047",
         "type": "tabs",
         "children": [
           {
-            "id": "aefb46fe7902213a",
+            "id": "24ed5ac159ba165f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Outline.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Outline.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Outline.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Outline.md"
               }
             }
           },
@@ -154,12 +154,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "64645fe0fabb9535",
+  "active": "24ed5ac159ba165f",
   "lastOpenFiles": [
+    "sections/preliminares/Lógica Lineal.md",
+    "assets/intuitionistic-bang.png",
+    "assets/bang-intuitionistic.png",
+    "assets.md",
+    "assets/linear-judgements.png",
+    "Outline.md",
+    "README.md",
     "sources/Ter-Matevosian_2023.md",
     "sources/Harper_2016.md",
     "sources/Otwani_2021.md",
-    "README.md",
     "sections/Trabajo Futuro.md",
     "sources/Walker_2004.md",
     "sections/calculo/Sintaxis.md",
@@ -172,16 +178,12 @@
     "sources/Girard_1995.md",
     "sources/EnriquezMendoza_2020.md",
     "sources/Claessen_2012.md",
-    "sections/preliminares/Lógica Lineal.md",
     "sources/Buss_2000.md",
     "sources/Girard_1987.md",
     "sections/haskell/Linear Types.md",
     "sources/Spiwack_2018.md",
     "sources/Wadler_1993.md",
     "sources/Troelstra_2000.md",
-    "sources/Pfenning_2002.md",
-    "sources/Bernardy_2016a.md",
-    "Outline.md",
     "sections/Untitled.canvas",
     "sections/haskell",
     "assets/typing-rules.png",
