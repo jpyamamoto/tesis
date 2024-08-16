@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "67ff3bbdb657b047",
+        "id": "258781af3f7ef70d",
         "type": "tabs",
         "children": [
           {
-            "id": "24ed5ac159ba165f",
+            "id": "20489f6f639c6e15",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Outline.md",
+                "file": "sections/preliminares/Programación Puramente Funcional.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Outline.md",
+                "file": "sections/preliminares/Programación Puramente Funcional.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Outline.md",
+                "file": "sections/preliminares/Programación Puramente Funcional.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Outline.md"
+                "file": "sections/preliminares/Programación Puramente Funcional.md"
               }
             }
           },
@@ -154,14 +154,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "24ed5ac159ba165f",
+  "active": "20489f6f639c6e15",
   "lastOpenFiles": [
+    "sections/preliminares/Programación Puramente Funcional.md",
+    "Outline.md",
     "sections/preliminares/Lógica Lineal.md",
     "assets/intuitionistic-bang.png",
     "assets/bang-intuitionistic.png",
     "assets.md",
     "assets/linear-judgements.png",
-    "Outline.md",
     "README.md",
     "sources/Ter-Matevosian_2023.md",
     "sources/Harper_2016.md",
