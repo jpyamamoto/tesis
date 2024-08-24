@@ -1,3 +1,0 @@
-- Linear Constraints: [[Spiwack_2022]], [[Spiwack_2023a]]
-- Exceptions: [[Spiwack_2020]]
-- Manual Memory Management: [[Walker_2004]], [[Mesquita_2024]]

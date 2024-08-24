@@ -1,8 +1,8 @@
 El proyecto de tesis se planea con las siguientes secciones:
 
-- [ ] Preliminares
+- [x] Preliminares
 	- [x] [[Lógica Lineal]]
-	- [ ] [[Programación Puramente Funcional]]
+	- [x] [[Programación Puramente Funcional]]
 	- [x] [[Fusión por Atajo]]
 	- [x] [[Destination Passing Style]]
 	- [x] [[GADTs]]
@@ -19,4 +19,4 @@ El proyecto de tesis se planea con las siguientes secciones:
 	- [x] [[Arreglos Mutables]]
 	- [x] [[Destination Arrays]]
 	- [x] [[Polarized Arrays]]
-- [ ] Conclusiones y trabajo futuro
+- [x] [[Conclusiones y Trabajo Futuro]]

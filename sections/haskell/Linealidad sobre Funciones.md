@@ -17,6 +17,10 @@ Nótese que la regla 3 es una instancia particular de la regla 4.
 
 Con las reglas anteriores queda claro que los datos no son propiamente lineales o no-lineales. Por el contrario, un dato puede ser *consumido* linealmente o no-linealmente. Esto resulta en que un mismo dato puede ser alimentado a una función lineal $f$ y a otra no-lineal $g$. Si bien $f$ no puede garantizar que está consumiendo la única referencia al dato, sí puede garantizar que dentro de $f$ el dato se usa linealmente, mientras que en $g$ no hay garantías de su uso.
 
+El hecho de que la linealidad difiere de la unicidad es mejor explicado en [[Marshall_2022]], donde se discute cómo en realidad estos dos conceptos presentan una cierta dualidad.
+
+> [...] linear types provide a restriction on what can be done with a value ‘in the future’ whilst uniqueness types provide a guarantee about what has been done with a value ‘in the past’.
+
 Para eludir los problemas que representa la imposibilidad de garantizar la existencia de un único apuntador a un dato, los desarrolladores de Haskell que hacen uso de la extensión `LinearHaskell`, y en particular de la biblioteca `base-linear` hacen uso del estilo de programación [[Destination Passing Style]], garantizando que el dato únicamente existe en un contexto donde su uso es lineal. Ejemplos de esto, más adelante en el caso de uso.
 
 ## Datos
